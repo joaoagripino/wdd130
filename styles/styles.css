@@ -1,5 +1,6 @@
-  nav {
+  nav, footer {
     background-color: steelblue;
+    color: white;
     padding: 10px;
     text-align: center;
   }
@@ -23,16 +24,19 @@
     margin: 50px auto;
     text-align: center;
   }
-  footer {
-    background-color: steelblue;
-    color: white;
-    text-align: center;
-  }
-  .main-para {
+    .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
   }
   #active {
+    background-color: white;
+    color: steelblue;
+  }
+  footer p {
+    font-size: 20px;
+    margin: 20px auto;
+  }
+  a:hover {
     background-color: white;
     color: steelblue;
   }
