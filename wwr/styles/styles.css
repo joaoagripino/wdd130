@@ -15,6 +15,7 @@ nav a {
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    color: #FEFAE0;
 }
 
 .button-box {
@@ -37,7 +38,9 @@ body {
 }
 
 header {
-    background-color: #516A8E;
+    background-color: rgba(81, 106, 142, 0.5);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav a:hover {
@@ -154,6 +157,8 @@ h2 {
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 footer .social img {
@@ -169,4 +174,25 @@ main section img {
     box-sizing: border-box;
 }
 
-/* comment */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
