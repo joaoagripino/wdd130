@@ -258,14 +258,17 @@ nav {
 
     #hero {
     margin-top: 0;
+    color: #516A8E;
     }
 
     #hero-msg {
     margin-top: 0;
+    color: #516A8E;
     }
 
     #hero-msg h4 {
     display: none;
+    color: #516A8E;
     }
 
     .home-title {
