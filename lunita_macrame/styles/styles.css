@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Sniglet&family=Source+Serif+Pro&display=swap');
+
+/* :root { */
+    /* Setting the color pallete*/
+    /* --primary-color: #D1CB9F   ; */
+    /* --secondary-color: #6B97B3 ; */
+    /* --accent1-color: #496E53; */
+    /* --accent2-color: #DD8950; */
+    /* --accent3-color: #542E71; */
+  
+    /* Setting the fonts */
+    /* --heading-font: "Shadows Into Light"; */
+    /* --paragraph-font: Sniglet, Source Serif Pro, sans-serif; */
+  
+    /* Setting the colors for the elements  */
+    /* --headline-color-on-white: #496E53;  /* headlines on a white background */ 
+    /* --headline-color-on-color: white; /* headlines on a colored background */  
+    /* --paragraph-color-on-white: #542E71; /* paragraph text on a white background */  
+    /* --paragraph-color-on-color: white; paragraph text on a colored background  */
+    /* --paragraph-background-color: #6B97B3  ;
+    --nav-link-color: #496E53;
+    --nav-background-color: #D1CB9F;
+    --nav-hover-link-color: #542E71;
+    --nav-hover-background-color: #DD8950; */
+/* } */
+
 .logo {
     width: 80px;
     background-color: #FEFAE0;

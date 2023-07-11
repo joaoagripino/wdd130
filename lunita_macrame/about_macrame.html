@@ -6,72 +6,205 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Lunita Macramé | About Macramé</title>
+
+    <style>
+        /* .parallax1 {
+          /* The image used */
+          /* background-image: url('images/panel2.jpg'), url('images/miscellany1.jpg');
+        
+          /* Set a specific height */
+          /* min-height: 500px; */
+
+        
+          /* Create the parallax scrolling effect */
+          /* background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        } */ 
+
+        @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Sniglet&family=Source+Serif+Pro&display=swap');
+
+        :root {
+            /* Setting the color pallete*/
+            --primary-color: #D1CB9F   ;
+            --secondary-color: #6B97B3 ;
+            --accent1-color: #496E53;
+            --accent2-color: #DD8950;
+            --accent3-color: #542E71;
+        
+            /* Setting the fonts */
+            --heading-font: "Shadows Into Light";
+            --paragraph-font: Sniglet, Source Serif Pro, sans-serif;
+        
+            /* Setting the colors for the elements  */
+            --headline-color-on-white: #496E53;  /* headlines on a white background */ 
+            --headline-color-on-color: white; /* headlines on a colored background */ 
+            --paragraph-color-on-white: #542E71; /* paragraph text on a white background */ 
+            --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+            --paragraph-background-color: #6B97B3  ;
+            --nav-link-color: #496E53;
+            --nav-background-color: #D1CB9F;
+            --nav-hover-link-color: #542E71;
+            --nav-hover-background-color: #DD8950;
+        }
+        /* Styling the body */
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+ 
+        /* Styling the first parallax's height, width and background color */
+        .parallax-1 {
+            width: 100%;
+            height: 600px;
+            background: url('images/panel2.jpg');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+ 
+        /* Styling the title of first parallax */
+        .parallax-1 h2 {
+            margin: auto;
+            position: relative;
+            left: 500x;
+            top: 300px;
+            width: 250px;
+            height: 32px;
+            padding: 10px;
+            background-color: #6B97B3;
+            color: white;
+            text-align: center;
+            font-family: "Shadows Into Light";
+        }
+ 
+        /* Styling the second parallax's height, width and background color */
+        .parallax-2 {
+            width: 100%;
+            height: 600px;
+            background: url('images/miscellany1.jpg');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        } 
+ 
+        /* Styling the title of second parallax */
+        .parallax-2 h2 {
+            margin: auto;
+            position: relative;
+            left: 500x;
+            top: 300px;
+            width: 250px;
+            height: 37px;
+            padding: 10px;
+            background-color: #6B97B3;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+        }
+ 
+        /* Styling the content or paragraph */
+        .para-1 h2, p{
+            padding: 50px;
+            background-color: #6B97B3;
+            color: white;
+            font-size: 17px;
+            font-family: "Shadows Into Lighte";
+            text-align: center;
+        }
+ 
+        /* Styling the content or paragraph */
+        .para-2 {
+            text-align: center;
+            padding: 25px;
+            font-size: 17px;
+            font-family: "Shadows Into Lighte";
+            background-color: #6B97B3;
+            color: white;
+        }
+
+    </style>
 </head>
 <body>
-    <div>
-        <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/logo.PNG" alt="Lunita Macrame Logo">
+    
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.PNG" alt="Lunita Macrame Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about_macrame.html">About Macramé</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Giving title of the first parallax -->
+    <div class="parallax-1"></div>
+ 
+    <!--Content of first parallax -->
+    <div class="para-1">
+        <h2>From ancient times...</h2>
+        <p>
+            Macramé is a very old technique, which uses only the hands to create unique pieces through the weaving of strings, 
+            cords or ropes. With this method, the craftsman creates knots, braids, fringes and geometric shapes with binding, 
+            resulting in pieces with unique characteristics.
+        </p>
+    </div>
+ 
+    <!-- Giving title of the first parallax -->
+    <div class="parallax-2"></div>
+ 
+    <!--Content of first parallax -->
+    <div class="para-2">
+        <h2>From shelter to art</h2>
+        <p>
+            The idea of braiding, tying and knotting fibers comes from prehistoric times, when our ancestors needed to create
+            coverings for protection and clothing with leaves and threads that were available in nature. From this origin, Macramé
+            is believed to have originated with 13th-century Arab weavers. These artisans knotted the excess thread and yarn along
+            the edges of hand-loomed fabrics into decorative fringes on bath towels, shawls, and veils. The Spanish word macramé is
+            derived from the Arabic migramah, believed to mean “striped towel”, “ornamental fringe” or “embroidered veil.” After
+            the Moorish conquest, the art was taken to Spain, then to Italy, especially in the region of Liguria, and then spread
+            through Europe. It was introduced into England at the court of Mary II in the late 17th century. Queen Mary taught
+            the art of macramé to her ladies-in-waiting. Sailors made macramé objects in off hours while at sea, and sold or
+            bartered them when they landed, thus spreading the art to places like China and the New World. Nineteenth-century
+            British and American sailors made hammocks, bell fringes, and belts from macramé. They called the process “square
+            knotting” after the knot they used most frequently. Sailors also called macramé “McNamara's Lace”. [1]
+        </p>
+        <p>
+            [1] Virginia Colton, ed. (1979). Complete Guide to Needlework. p. 445. ISBN 0888500858, on https://ancientearthhealing.com/history-of-macrame/
+        </p>
+    </div>
+ 
+    <!--This will be same as first parallax-->
+    <div class="parallax-1"></div>
+ 
+    <div class="para-2">
+        <h2>Sustainability on the rise!</h2>
+        <p>
+            The technique became very popular again in the 70s, thanks to the hippie movement. Macramé pieces have gained new 
+            relevance in recent years, increasingly winning over the public that values handcrafted work, with a contemporary 
+            touch. One of the main reasons macramé is on the rise is because it is a sustainable, handmade technique that helps 
+            reduce the environmental impact of mass production.
+        </p>
+    </div>
+
+        
+    <footer>
+        <p>Lunita Macramé &copy; 2023 - Joao Maia</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
             </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="products.html">Products</a>
-                <a href="about_macrame.html">About Macramé</a>
-                <a href="contactus.html">Contact Us</a>
-            </nav>
-        </header>
-        <!-- <div id="hero">
-            <div id="hero-box">
-                <img id="hero-img" src="images/hero.png" alt="People enjoying white water rafting">
-            </div>
-            <section id="hero-msg">
-                <h1 class="home-title">Have An Adventure!</h1>
-                <h4>Make Memories with Dry Oar</h4>
-                <div class="button-box">
-                    <a class="book" href="contactus.html">Book Now</a>
-                </div>
-            </section>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
         </div>
-        <main class="home-grid">
-            <section class="rivers-card">
-                <img class="card-img" src="images/rivers.jpg" alt="river in forest">
-                <img class="icon" src="images/river_icon.png" alt="river icon">
-                <h2>Rivers</h2>
-            </section>
-            <section class="camping-card">
-                <img class="card-img" src="images/camping.jpg" alt="tent in mountains">
-                <img class="icon" src="images/fire_icon.png" alt="fire icon">
-                <h2>Camping</h2>
-            </section>
-            <section class="rapids-card">
-                <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
-                <img class="icon" src="images/oars.png" alt="oars icon">
-                <h2>Rapids</h2>
-            </section>
-            <div id="background"></div>
-            <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
-            <section class="msg">
-                <h2>More Than Just The Thrill...</h2>
-                <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors.</p>
-                <a class="join" href="rivers.html">Join Us</a>
-            </section>
-        </main> -->
-        <footer>
-            <p>Lunita Macramé &copy; 2023 - Joao Maia</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <p><a href="contactus.html">Contact Us</a></p>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
-            </div>
-        </footer>
-</div>
+    </footer>
+
 </body>
 </html>
