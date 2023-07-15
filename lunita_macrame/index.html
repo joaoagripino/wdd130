@@ -2,141 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
     <title>Lunita Macramé | Home</title>
-
-    <!-- <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-
-        // Next/previous controls
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        // Thumbnail image controls
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-        }
-    </script> -->
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <header>
-    <!-- <a id="logo_link" href="index.html">
-        <img class="logo" src="images/logo.PNG" alt="Lunita Macrame Logo">
-    </a>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="about_macrame.html">About Macramé</a>
-        <a href="contactus.html">Contact Us</a>
-    </nav> -->
-
-    <a> 
-        <img class="logo" src="images/logo.PNG">
-    </a>
-    <nav>
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">Products</a></li>
-            <li><a href="index.html">About Macramé</a></li>
-            <li><a href="index.html">Contacts</a></li>
-        </ul>
-    </nav>
+    <header class="header">
+        <a> 
+         <img class="logo" src="images/logo.PNG" alt="logo image">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Products</a></li>
+                <li><a href="index.html">About Macramé</a></li>
+                <li><a href="index.html">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
-    <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="images/keychain1.jpg" alt="Keychain and cords">
-        </div>
-        <section id="hero-msg">
-            <h1 class="home-title">Welcome to Lunita Macramé!</h1>
-            <h4>Unique handcrafted pieces, inspired by nature.</h4>
-            <div class="button-box">
-                <a class="book" href="contactus.html">Contact Us</a>
+    <main class="home-grid">
+        <section id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/colored_cords.jpeg" alt="colored cords">
             </div>
+            <section id="hero-msg">
+                <h1 class="home-title">Welcome to Lunita Macramé!</h1>
+                <h4>Unique handcrafted pieces, inspired by nature.</h4>
+                <div class="button">
+                    <a class="contact" href="contactus.html">Contact Us</a>
+                </div>
+            </section>
         </section>
-    </div>
-
-    <div>
-        <img src="images/cords1.jpeg" alt="image of cords">
-    </div>
-    <!-- <main> -->
-        <section>
-            <p> Lunita Macramé is a company that produces and markets unique handcrafted pieces, inspired by nature. 
-                Emerged from the challenging times of the pandemic, in a personal search by the entrepreneur for an art that 
-                connected her to people, with bonding with the sea, forests and other elements of nature, as a therapy to combat 
-                the stress of isolation.
-            </p>
-        </section>
-        <!-- <section>
-            Slideshow container -->
-            <div class="slideshow-container">
-
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="images/necklace1.jpg" style="width:100%">
-                <div class="text">Necklace 1</div>
-                </div>
-            
-                <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="images/panel1.jpg" style="width:100%">
-                <div class="text">Panel 1</div>
-                </div>
-            
-                <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/bag1.jpg" style="width:100%">
-                <div class="text">Bag 1</div>
-                </div>
-            
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <section class="presentation">
+            <img src="images/cords1.jpeg" alt="rolls of cords">
+            <div class="presentation_text">
+                <p class="presentation_text">Lunita Macramé is a company that produces and markets unique handcrafted pieces,
+                     inspired by nature. Emerged from the challenging times of the pandemic, in a personal search by the entrepreneur
+                      for an art that connected her to people, with bonding with the sea, forests and other elements of nature, 
+                      as a therapy to combat the stress of isolation.</p>
             </div>
-            <br>
-            
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-            <!-- <img class="card-img" src="images/camping.jpg" alt="tent in mountains"> -->
-            <!-- <img class="icon" src="images/fire_icon.png" alt="fire icon"> -->
-            <h2>Unique creations!</h2>
-            <p>The creations are developed with a lot of love and seek to convey to the public respect for the millenary macrame
-                technique. The artist conveys her inspirations in each piece, always with the aim of producing in her audience, 
-                whether in their environment or in themselves, the positive feelings we feel when we are in contact with nature's creations. 
-                The pieces are braided with extreme technical rigor in the production of high-quality pieces, without losing the rustic 
-                character, typical of macramé.</p>
         </section>
         <section>
-            <img src="images/panel1.jpg" alt="panel in macramé">
-            <h2>We can tell you more about it!</h2>
-            <p>In addition to studying and exploring macramé techniques, the artist seeks to know its origins. Where did a particular 
-                weft come from? How was each type of knot created? What prompted the first artists to braid yarn? If you want to know a 
-                little more about the origin of this art, you are welcome to visit our page 'About Macramé', which tells a little about 
-                the history and meanings that macramé has in some cultures.</p>
+            <div id="background_unique">
+                <img class="at_work" src="images/at_work1.jpeg" alt="artist at work">
+                <div class="unique_creations">
+                    <h2>Unique creations!</h2>
+                    <p>The creations are developed with a lot of love and seek to convey to the public respect for the millenary macrame 
+                    technique. The artist conveys her inspirations in each piece, always with the aim of producing in her audience, 
+                    whether in their environment or in themselves, the positive feelings we feel when we are in contact with nature's 
+                    creations. The pieces are braided with extreme technical rigor in the production of high-quality pieces, without 
+                    losing the rustic character, typical of macramé.</p>
+                    <div class="button">
+                        <a class="check" href="products.html">Check our creations</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="background_tell_more">
+                <img class="knot_sample" src="images/knot_sample.jpeg" alt="knot sample">
+                <div class="tell_more">
+                    <h2>We can tell you more about it!</h2>
+                    <p>In addition to studying and exploring macramé techniques, the artist seeks to know its origins. Where did a 
+                        particular weft come from? How was each type of knot created? What prompted the first artists to braid yarn? 
+                        If you want to know a little more about the origin of this art, you are welcome to visit our page 'About Macramé', 
+                        which tells a little about the history and meanings that macramé has in some cultures.</p>
+                    <div class="button">
+                        <a class="about" href="about_macrame.html">About macramé</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
