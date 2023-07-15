@@ -220,6 +220,101 @@ a {
   text-align: center;
 }
 
+div.scroll-bag {
+  background-color: #6B97B3;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+div.scroll-bag img {
+  padding: 10px;
+}
+
+div.scroll-bag h2 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Shadows Into Light";
+}
+
+div.scroll-necklace {
+  background-color: #496E53;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+div.scroll-necklace img {
+  padding: 10px;
+}
+
+div.scroll-necklace h2 {
+  text-align: center;
+  color: #D1CB9F;
+  font-family: "Shadows Into Light";
+}
+
+div.scroll-panels {
+  background-color: #6B97B3;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+div.scroll-panels img {
+  padding: 10px;
+}
+
+div.scroll-panels h2 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Shadows Into Light";
+}
+
+div.scroll-lamps {
+  background-color: #496E53;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+div.scroll-lamps img {
+  padding: 10px;
+}
+
+div.scroll-lamps h2 {
+  text-align: center;
+  color: #D1CB9F;
+  font-family: "Shadows Into Light";
+}
+
+div.scroll-accessories {
+  background-color: #6B97B3;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+div.scroll-acessories img {
+  padding: 10px;
+}
+
+div.scroll-accessories h2 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Shadows Into Light";
+}
+
 footer {
     background-color: #D1CB9F;
     color: #496E53;
