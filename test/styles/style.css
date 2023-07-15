@@ -140,6 +140,12 @@ div.scroll-bag {
     font-family: "Shadows Into Light";
   }
 
+  .para-1 h2 {
+    font-family: "Shadows Into Light";
+    text-align: center;
+    color: #FFFFFF;
+  }
+
   footer {
     background-color: #D1CB9F;
     color: #496E53;
